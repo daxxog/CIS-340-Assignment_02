@@ -6,6 +6,6 @@ steps:
   - name: compile and test (mono)
     image: mono:6
     commands:
-      - apt update; apt install build-essential libicu -y
+      - apt update; apt install build-essential icu-devtools -y
       - icuinfo
       - make test
