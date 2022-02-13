@@ -6,5 +6,5 @@ steps:
   - name: compile and test (mono)
     image: mono:6
     commands:
-      - apt update; apt install build-essential -y
+      - apt update; apt install build-essential libicu -y
       - make test
