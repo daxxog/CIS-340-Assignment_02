@@ -7,4 +7,5 @@ steps:
     image: mono:6
     commands:
       - apt update; apt install build-essential libicu -y
+      - icuinfo
       - make test
