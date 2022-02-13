@@ -11,6 +11,6 @@ steps:
       LC_ALL: en_US.UTF-8
     commands:
       - apt update; apt install build-essential icu-devtools locales -y
-      - sed -i "/${LANG}/s/^# //g" /etc/locale.gen && locale-gen
+      - sed -i "/$${LANG}/s/^# //g" /etc/locale.gen && locale-gen
       - icuinfo
       - make test
