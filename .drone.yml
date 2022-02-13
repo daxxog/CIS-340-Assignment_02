@@ -5,6 +5,8 @@ name: 'compile and test C# CLI app'
 steps:
   - name: compile and test (mono)
     image: mono:6
+    environment:
+      DOTNET_SYSTEM_GLOBALIZATION_INVARIANT: '1'
     commands:
       - apt update; apt install build-essential icu-devtools -y
       - icuinfo
