@@ -1,0 +1,46 @@
+Sorted by description:
+83    Electric sander      7     $57.98
+77    Hammer               76    $11.99
+56    Jig saw              21    $11.00
+39    Lawn mower           3     $79.50
+24    Power saw            18    $99.99
+68    Screwdriver          106    $6.99
+7     Sledge hammer        11    $21.50
+3     Wrench               34     $7.50
+
+Sorted by price:
+68    Screwdriver          106    $6.99
+3     Wrench               34     $7.50
+56    Jig saw              21    $11.00
+77    Hammer               76    $11.99
+7     Sledge hammer        11    $21.50
+83    Electric sander      7     $57.98
+39    Lawn mower           3     $79.50
+24    Power saw            18    $99.99
+
+Select description and quantity, sort by quantity:
+{ PartDescription = Lawn mower, Quantity = 3 }
+{ PartDescription = Electric sander, Quantity = 7 }
+{ PartDescription = Sledge hammer, Quantity = 11 }
+{ PartDescription = Power saw, Quantity = 18 }
+{ PartDescription = Jig saw, Quantity = 21 }
+{ PartDescription = Wrench, Quantity = 34 }
+{ PartDescription = Hammer, Quantity = 76 }
+{ PartDescription = Screwdriver, Quantity = 106 }
+
+Select description and invoice total, sort by invoice total:
+{ PartDescription = Jig saw, InvoiceTotal = 231 }
+{ PartDescription = Sledge hammer, InvoiceTotal = 236.5 }
+{ PartDescription = Lawn mower, InvoiceTotal = 238.5 }
+{ PartDescription = Wrench, InvoiceTotal = 255 }
+{ PartDescription = Electric sander, InvoiceTotal = 405.86 }
+{ PartDescription = Screwdriver, InvoiceTotal = 740.94 }
+{ PartDescription = Hammer, InvoiceTotal = 911.24 }
+{ PartDescription = Power saw, InvoiceTotal = 1799.82 }
+
+Invoice totals between {200:C} and {500:C}:
+{ PartDescription = Jig saw, InvoiceTotal = 231 }
+{ PartDescription = Sledge hammer, InvoiceTotal = 236.5 }
+{ PartDescription = Lawn mower, InvoiceTotal = 238.5 }
+{ PartDescription = Wrench, InvoiceTotal = 255 }
+{ PartDescription = Electric sander, InvoiceTotal = 405.86 }

@@ -1,0 +1,10 @@
+---
+kind: pipeline
+type: docker
+name: 'compile and test C# CLI app'
+steps:
+  - name: compile and test (mono)
+    image: mono:6
+    commands:
+      - apt update; apt install build-essential -y
+      - make test
